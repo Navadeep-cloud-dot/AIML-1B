@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Grid</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 100vh;
+    }
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: white;
+    }
+    .orange { background-color: orange; }
+    .red    { background-color: red; }
+    .blue   { background-color: blue; }
+    .green  { background-color: green; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box orange">ORANGE</div>
+    <div class="box red">RED</div>
+    <div class="box blue">BLUE</div>
+    <div class="box green">GREEN</div>
+  </div>
+
+</body>
+</html>

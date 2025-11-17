@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Admission Eligibility App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎓 AI-Based Admission Eligibility Checker</h1>
+    <p>Find out which colleges you're eligible for based on your scores and preferences.</p>
+  </header>
+
+  <section id="student-input">
+    <h2>📋 Student Profile</h2>
+    <form id="eligibility-form">
+      <label>Name: <input type="text" name="name" required /></label><br />
+      <label>10th Grade %: <input type="number" name="grade10" required /></label><br />
+      <label>12th Grade %: <input type="number" name="grade12" required /></label><br />
+      <label>Entrance Exam Score (e.g., JEE Main): <input type="number" name="examScore" required /></label><br />
+      <label>Category:
+        <select name="category">
+          <option>General</option>
+          <option>OBC</option>
+          <option>SC/ST</option>
+          <option>EWS</option>
+        </select>
+      </label><br />
+      <label>Preferred Course: <input type="text" name="course" /></label><br />
+      <label>Preferred College: <input type="text" name="college" /></label><br />
+      <button type="submit">Check Eligibility</button>
+    </form>
+  </section>
+
+  <section id="results">
+    <h2>✅ Eligibility Results</h2>
+    <div id="output">
+      <!-- AI-generated results will appear here -->
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>🎯 Smart Recommendations</h2>
+    <ul>
+      <li>Alternative colleges based on your score</li>
+      <li>Courses with better admission chances</li>
+      <li>Scholarship suggestions</li>
+    </ul>
+  </section>
+
+  <section id="checklist">
+    <h2>📁 Document Checklist</h2>
+    <ul>
+      <li>10th & 12th Marksheet</li>
+      <li>Entrance Exam Scorecard</li>
+      <li>Category Certificate (if applicable)</li>
+      <li>Photo ID Proof</li>
+    </ul>
+  </section>
+
+  <section id="chatbot">
+    <h2>💬 Ask Our Chatbot</h2>
+    <p>Need help? Type your question below:</p>
+    <input type="text" placeholder="e.g., What is the cutoff for NIT Warangal?" />
+    <button>Ask</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AdmissionAI | Designed for student success</p>
+  </footer>
+</body>
+</html>

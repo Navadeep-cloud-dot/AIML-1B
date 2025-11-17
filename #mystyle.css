@@ -1,0 +1,11 @@
+#mystyle.css
+h1{color:black;
+    text-align: center;
+    font-family: Arial;
+    text-decoration: underline;}
+p{color:red;
+    font-size: 18px;
+    text-align: center;
+    font-family:verdana;
+    text-decoration: italic;}
+body{background-color: rgb(205, 57, 12);}
